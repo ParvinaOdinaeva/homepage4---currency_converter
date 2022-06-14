@@ -1,5 +1,9 @@
 .converterContainer {
-    max-width: 700px;
+    max-width: 1000px;
     margin: auto;
     padding: 0 20px;
+    background-image: url("../images/background2.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
