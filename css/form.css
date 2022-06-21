@@ -1,3 +1,15 @@
+.form {
+    display: grid;
+    max-width;
+    : 50%
+}
+
+@media (max-width: 767px) {
+    .form {
+        width: 100%;
+    }
+}
+
 .form__labelText {
     width: 100%;
     max-width: 200px;
@@ -13,10 +25,11 @@
     max-width: 400px;
 }
 
-.form__field--border{
+.form__field--border {
     border: 2px solid rgb(137, 137, 245);
     resize: vertical;
 }
+
 .form__button {
     border: none;
     background-color: rgb(13, 126, 233);
